@@ -1,0 +1,243 @@
+.contact{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    gap: 25px;
+  
+}
+.smilePhoto{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.about{
+    margin-top: 25px;
+    width: 250px;
+
+}
+.text{
+    margin: 15px;
+    text-align: center;
+}
+.maxText{
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 25px;
+}
+.contacts{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.maxText{
+    margin-top: 45px;
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 25px;
+
+    
+}
+.name{
+    border-radius: 25px;
+    background-color: wheat;
+    color: black;
+    font-size: 26px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 400px;
+
+
+}
+
+.more{
+    background-color: bisque;
+    padding: 0 10px;
+    border-radius: 15px;
+
+    margin-left: 10px;
+    cursor: pointer;
+}
+.data{
+    padding: 5px;
+    width: 250px;
+}
+.data:hover{
+    background-color:wheat;
+    color: white;
+    border-radius: 25px;
+}
+
+.profile{
+margin: 0 auto;
+
+   
+}
+
+.icon img{
+    margin: 10px;
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+}
+.icon img:hover{
+    background-color:burlywood;
+    border-radius: 25px;
+}
+.social a{
+    text-decoration: none;
+    color: black;
+
+
+
+}
+.email{
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: wheat;
+    color: black;
+    border-radius: 35px;
+    text-decoration: none;
+}
+.email:hover{
+    transition: 1s;
+    padding: 15px;
+
+}
+.emaild{
+    margin: 10px;
+   
+}
+.emaild div:hover{
+    color: black;
+}
+
+/*  */
+
+.Contact{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    gap: 25px;
+    color: red;
+    
+
+}
+.Data{
+    padding: 5px;
+    width: 250px;
+}
+.Data:hover{
+    background-color:black;
+    color: red;
+    border-radius: 25px;
+}
+
+.Social a{
+    text-decoration: none;
+    color: red;
+
+    
+
+}
+.Email{
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: red;
+    color: black;
+    border-radius: 35px;
+    text-decoration: none;
+}
+.Email:hover{
+    transition: 1s;
+    padding: 15px;
+}
+
+.Emaild{
+    margin: 10px;
+}
+.Emaild :hover{
+    background-color: red;
+    color: black;
+    
+
+}
+.Icon img{
+    margin: 10px;
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+}
+.Icon img:hover{
+    background-color:red;
+    border-radius: 25px;
+}
+
+.Name{
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: red;
+    color: black;
+    font-size: 26px;
+    padding: 10px;
+    max-width: 400px;
+
+
+}
+
+.MaxText{
+    margin-top: 45px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 25px;
+    color: black;
+}
+
+.More{
+    background-color: black;
+    padding: 0 10px;
+    color: red;
+    border-radius: 15px;
+
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 630px) {
+    .name {
+      font-size: 20px;
+    }
+    .Name {
+        font-size: 20px;
+      }
+
+    .smilePhoto {
+        width: 200px;
+        height: 200px;
+    }
+    .SmilePhoto {
+        width: 200px;
+        height: 200px;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 25px;
+    }
+    .Contact{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 25px;
+    }
+
+    .about{
+        width: 100%;
+        margin: 15px;
+    }
+    .About{
+        width: 100%;
+        margin: 15px;
+    }
+
+  }

@@ -1,0 +1,60 @@
+
+
+.app{
+  background-color: black;
+  margin: 0 auto;
+  min-height: 800px;
+  max-width: 1600px;
+}
+
+
+.App{
+  background-color:blanchedalmond;
+  margin: 0 auto;
+  min-height: 800px;
+  max-width: 1600px;
+}
+
+
+
+.btn{
+    width: 60px;
+    position: fixed;
+    border-radius: 25px;
+    right: 10px;
+    bottom: 100px;
+    background-color:wheat;
+    padding: 4px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+  background-color: red;
+  transition: 1s;
+
+}
+
+.Btn{
+  width: 60px;
+  position: fixed;
+  border-radius: 25px;
+  right: 10px;
+  bottom: 100px;
+  background-color:red;
+  padding: 4px 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.Btn:hover{
+  background-color: wheat;
+
+}
+
+.btn:active{
+   padding: 5px;
+}
+.Btn:active{
+  padding: 5px;
+}
